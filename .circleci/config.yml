@@ -26,6 +26,8 @@ jobs:
        EOF
    - run: mkdir -p "${GOPATH_BASE}"
    - run: mkdir -p "${GOPATH_HEAD}/bin"
+       
+
 
    - deploy:
        command: |
